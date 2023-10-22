@@ -37,7 +37,7 @@ module.exports = {
     ],
     devtool: "source-map",
     devServer: {
-        static: path.resolve(__dirname, "dist"),
+        static: path.resolve(__dirname, "src"),
         historyApiFallback: true,
         open: true,
         hot: true
