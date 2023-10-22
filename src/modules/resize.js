@@ -5,3 +5,4 @@ function handleResize() {
 }
 
 window.addEventListener("resize", handleResize);
+handleResize(); // run it once when website loads
